@@ -15,5 +15,8 @@ namespace MovieStore.Models
         public Director Director { get; set; }
         public List<Actor> Actors { get; set; }
         public List<Genre> Genres { get; set; }
+        public string MovieInvitation { get; set; }
+        public string MovieApplication { get; set; }
+        public string MovieRoles { get; set; }
     }
 }

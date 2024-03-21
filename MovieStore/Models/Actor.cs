@@ -7,5 +7,6 @@
         public string LastName { get; set; }
         public string Adress { get; set; }
         public string FeePerFilm { get; set; }
+        public List<Movie> Movies { get; set; }
     }
 }
